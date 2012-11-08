@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var spriteGenerator = require("../index.js");
+var util = require("util");
+
+if (process.argv.length !== 3) {
+  util.puts("Missing directory option!\n\n Example usage: sprite_generator images/");
+  process.exit(1);
+}
+
+spriteGenerator(process.argv[2]);

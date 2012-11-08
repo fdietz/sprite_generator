@@ -1,0 +1,26 @@
+{
+  "name": "sprite_generator",
+  "version": "0.0.1",
+  "description": "Take a directory of images and outputs a spritemap where each row of images corresponds to a numbered list of files and a json file detailing the pixel locations and number of frames for each sprite",
+  "main": "index.js",
+  "bin": "./bin/sprite_generator",
+  "dependencies": {
+    "canvas": "0.13.1",
+    "join": ">=2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "http://github.com/fdietz/sprite_generator",
+  "author": {
+    "name": "Frederik Dietz",
+    "email": "fdietz@gmail.com",
+    "url": "http://fdietz.github.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sprites",
+    "images",
+    "gaming"
+    ]
+}
